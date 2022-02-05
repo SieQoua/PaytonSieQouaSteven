@@ -3,6 +3,7 @@ ls : To list contents of the directory
 
 cd : To  change directory
 cd .. : To change to the parent directory
+
 mkdir : To create a directory
 rmdir : To remove a directory
 rm "filename" : To remove a file
@@ -10,20 +11,28 @@ rm "filename" : To remove a file
 - - - - - Creating files - - - - -
 
 touch "filename."type of file" " : Only creates.
-cat > "filename."type of file" " : creates and can start appending to file.
-vim "filename."type of file" " : creates and can start editing the file.
+cat > "filename."type of file" " : Creates and can start appending to file.
+vim "filename."type of file" " : Creates and can start editing the file.
 
-nano "textfile name" : to read/write what's in the textfile
+nano "textfile name" : Read/write what's in the textfile
+
+- - - - - - - - - - - - - - - - - 
+
+
+
+- - - - - Checking/Switching Branches - - - - - 
 
 git branch : To checkout what branches are there in the repo
 
 git checkout <existing branch> : To change branches
 git checkout -b <new_branch> : To create a new branch
 
-git commit -m "Enter a comment" : To commit with a comment. You need to add the " - m "Enter a comment" " otherwise it gets complicated
+
+- - - - - - - - - - - - - - - - - - - - - - - -
 
 
-- - - - - Steps to pushing - - - - -
+
+- - - - - - - - - - - Steps to pushing - - - - - - - - - - - 
 
 1. After updating code or whatever you want to update. gitbash, you want to enter "git status" to see what the status is
 2. To update/add now, you want to do "git add "file you want to add/update" "
@@ -32,3 +41,7 @@ git commit -m "Enter a comment" : To commit with a comment. You need to add the 
 5. Enter : git status to check the status
 6. Enter : git push
 7. Enter : git status to check the status
+
+git commit -m "Enter a comment" : To commit with a comment. You need to add the " - m "Enter a comment" " otherwise it gets complicated
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
