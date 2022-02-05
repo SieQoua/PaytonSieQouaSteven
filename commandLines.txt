@@ -1,0 +1,11 @@
+ls : to list contents of the directory
+
+cd : To  change directory
+cd .. : To change to the parent directory
+
+
+git checkout <existing branch> : To change branches
+git checkout -b <new_branch> : To create a new branch
+git branch : To checkout what branches are there in the repo
+
+git commit -m "Enter a comment" : To commit with a comment. You need to add the " - m "Enter a comment" " otherwise it gets complicated
