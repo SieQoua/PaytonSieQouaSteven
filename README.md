@@ -8,5 +8,6 @@ After slaying a certain amount of creatures the player will then move up in leve
 The creatures will start to appear quicker and become much harder to slay as the game progresses.
 
 Current Progress 
+
 As of right now we have a variety of sprites created for the game. 
 As for our code, so far we have been able to incorprate movement for our main player. 
